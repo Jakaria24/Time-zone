@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color:#8080802b;
+}
+.menu-bar ul {
+    list-style: none;
+     display: inline-flex;
+     padding-top: 25px;
+     
+}
+.menu-bar a{
+    text-decoration: none;
+    color: #000000c7;
+    font-family:"Josefin Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    }
+.menu-bar ul li{
+    padding: 25px;
+    }
+.menu-bar{
+    text-align: center;
+    background-color: white;
+    height: 120px;
+}
+.menu-bar ul li :hover{
+    color: red;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li :hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    
+    
+}
+.menu-bar ul li :hover .sub-menu-1 ul{
+    display: block;
+    
+}
+.link:hover .sub-menu-1{
+    color: black;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-radius: 5px;
+    border-color: red;
+}
+.link:hover .sub-menu-1 ul{
+    display: block;
+    
+}
+.logo {
+  background-color: white;
+  position: absolute;
+}
+.head-contain{
+    height: 120px;
+}
+.logo img{
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.head-title{
+    font-size: 100px;
+    font-family: "Josefin Sans",sans-serif;
+    color:#18183ae0;
+    font-weight: 700;
+}
+.button{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 18px;
+    padding:13px 30px;
+    background-color:#0e0e0ecf;
+    font-weight: 400;
+    border: none;
+    }
+    .button:hover{
+        background-color: red;
+    }
+    .clear-div{
+        clear: both;
+    }
+    .card-2{
+        border: none;
+        margin: 100px 50px;
+    }
+   .contain-group{
+       background-color: white;
+       margin-right: 5px;
+       margin-bottom: 200px;
+   }
+   .sec-content{
+       background-color: white;
+       margin-top: 100px;
+   }
+   .card-3 img{
+       padding-top: 110px;
+   }
+   .card-4 img{
+       padding-top: 55px;
+   }
+   .New{
+       font-weight: 900;
+       font-family: cursive;
+       font-size: 40px;
+   }
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.img-div{
+    margin-bottom:100px;
+}
+.watch-store{
+    background: none;
+}
+.choice{
+    font-size: 50px;
+    color: black;
+    font-family: cursive;
+}
+.show-watch{
+    background-color: red;
+    border: none;
+}
+.show-watch:hover{
+   background-color:#272323e3;
+}
+.last-side{
+    width: 24%;
+    
+    float: left;
+    margin:  40px;
+    
+    
+}
+.last-side h4{
+    padding-bottom: 10px;
+    
+    color: white;
+}
+.last-side p{
+    text-align: justify;
+    color: white;
+}
+.finish{
+    background-color: red;
+
+    margin-top: 250px;
+    overflow: hidden;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: 70px;
+    
+}
+.rong{
+    margin-left: 25px;
+}
+    
+
